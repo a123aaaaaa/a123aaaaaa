@@ -1,0 +1,21 @@
+graph LR
+A[Mulai] --> B{Area Cokelat dan Orang Amerika Selatan};
+B --> C{Galeri Eropa};
+C --> D{Bull Street};
+D --> E{Ruang Cadbury};
+E --> F{Area Produksi Cokelat};
+F --> G{Pabrik Pengemasan?};
+G -- Ya --> H{Antri Pabrik Pengemasan};
+H --> I{Tur Pabrik Pengemasan};
+I --> J{Area Demonstrasi};
+G -- Tidak --> J;
+J --> K{'Man in Black' dan Pabrik Hiburan};
+K --> L{Hall of Mirrors};
+L --> M{Toko};
+M --> N{Restoran?};
+N -- Ya --> O{Restoran};
+O --> P{Koleksi Cadbury?};
+N -- Tidak --> P;
+P -- Ya --> Q{Koleksi Cadbury};
+Q --> R{Selesai};
+P -- Tidak --> R;
